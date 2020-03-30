@@ -1,0 +1,164 @@
+html{
+    background-color:#fefefe;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:60px;
+    margin-bottom:35px;
+    width:800px;
+    font-family: Open Sans, Arial;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: justify;
+    color:#454545;
+    
+}
+
+h1, h2, h3{
+    line-height: 1.2;
+}
+
+a {
+    color:#0077AF;
+}
+
+a:visited {
+    color: #B13F62;
+}
+
+small{
+    font-size: 6.5px;
+}
+
+code{
+    font-size:14px;
+}
+
+.txt_rouge{
+    color:#740000;
+}
+
+.txt_rouge_bi{
+    color:#740000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.txt_bleu{
+    color:#172FF1;
+}
+
+.txt_violet{
+    color:#551A99;
+}
+
+.container{
+    width:800px;
+    height: auto;
+}
+
+.left{
+    width: 320px;
+    height:auto;
+    float:left;
+    margin-right: 20px;
+}
+
+.left img{
+    width: 100%;
+}
+
+.right{
+    width: 460px;
+    height:auto;
+    float:left;
+    margin-top: -20px;
+    min-height: 300px;
+}
+
+.legende{
+    font-size: 11px;
+}
+
+.gris{
+    color:#444;
+    font-weight: bold;
+}
+
+.carre_gris{
+    background-color:#444;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.gris_fonce{
+    color:#454545;
+    font-weight: bold;
+}
+
+.carre_fonce{
+    background-color:#454545;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+}
+
+.logolien{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+blockquote author {
+    display: block;
+    clear: both;
+    font-size: .6em;
+    margin-left: 2.4rem;
+    font-style: oblique;
+}
+
+.rainbow {
+    animation: colorRotate 5s infinite;
+}
+
+@keyframes colorRotate{
+    0%{color: orange;}	
+    10%{color: purple;}	
+    20%{color: red;}
+    30%{color: CadetBlue;}
+    40%{color: yellow;}
+    50%{color: coral;}
+    60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+    100%{color: orange;}
+}
+
+.contrast{
+    color:#000;
+    font-size: 13px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+    user-select: none;
+}
+
+.inverse{
+    color:#FFF;
+    font-size: 13px;
+    position: absolute;
+    right: 10px;
+    top: 34px;
+    padding:2px 5px;
+    background-color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+    user-select: none;
+}
